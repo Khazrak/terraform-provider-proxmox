@@ -12,3 +12,23 @@
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
+
+
+# IDEA
+*.iml
+*.ipr
+.idea
+
+# Logs
+*.log
+*.log.*
+
+# Shadows
+*~
+
+# Terraform plans and state
+*.tf
+*.tfstate
+*.tfstate.*
+
+terraform-provider-dummy
